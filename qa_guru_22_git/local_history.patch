@@ -1,0 +1,25 @@
+Index: src/main/java/guru/qa/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/guru/qa/Main.java b/src/main/java/guru/qa/Main.java
+--- a/src/main/java/guru/qa/Main.java	
++++ b/src/main/java/guru/qa/Main.java	(date 1696357847585)
+@@ -1,12 +1,12 @@
+ package guru.qa;
+ 
+ public class Main {
++
+     public static void main(String[] args) {
+-        System.out.println("Hello qa.guru!");
++        System.out.println(getMessage());
+     }
+ 
+-    private  static String getMessage () {
++    private  static String getMessage() {
+         return  "Hello qa.guru";
+     }
+-
+ }
+\ No newline at end of file
